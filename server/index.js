@@ -3,8 +3,7 @@ const app = express()
 const cors = require('cors')
 const http = require('http')
 const {Server} = require('socket.io')
-const URL = ''
-const PORT =  URL || 5000
+const PORT = 'https://client-chatappp.vercel.app/'
 app.use(cors())
 
 const server = http.createServer(app)
